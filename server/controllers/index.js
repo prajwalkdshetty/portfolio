@@ -2,7 +2,7 @@ import express from "express";
 
 import serverRenderer from '../middleware/renderer';
 import configureStore from '../../src/store/configureStore';
-import { setAsyncMessage } from '../../src/store/appReducer';
+import { setAsyncMessage } from '../../src/store/reducers/appReducer';
 
 const router = express.Router();
 const path = require("path");
